@@ -12,7 +12,7 @@
     }`
 `}`
 
-In my code I used the addMessage method that takes in the arguments
+In my code I used the addMessage method that takes in the arguments.
 `@RequestParam(value = "s", defaultValue = "") String message`.
 It receives the value of s as a query parameter for the url.
 The relevant fields of the class are `private StringBuilder runningString` which stores the string and appends a new string.
