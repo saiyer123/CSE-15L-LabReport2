@@ -1,7 +1,7 @@
 # Part 1
-`public class StringServer {
+`public class StringServer {`
 
-    private StringBuilder runningString = new StringBuilder();
+    `private StringBuilder runningString = new StringBuilder();
 
     @GetMapping("/add-message")
     public String addMessage(@RequestParam(value = "s", defaultValue = "") String message) {
@@ -9,8 +9,8 @@
             runningString.append("\n").append(message);
         }
         return runningString.toString().trim();
-    }
-}`
+    }`
+`}`
 
 
 # Part 2 
