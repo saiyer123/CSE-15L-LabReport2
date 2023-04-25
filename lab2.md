@@ -3,7 +3,7 @@
 # Part 2 
 
 
-![Image](CSE-15L-Part2-Code)
+![Image](CSE-15L-Part2-Code.png)
 
 
 # Part 3
