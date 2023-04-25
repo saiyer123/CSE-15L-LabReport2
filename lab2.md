@@ -12,6 +12,15 @@
     }`
 `}`
 
+In my code I used the addMessage method that takes in the arguments
+`@RequestParam(value = "s", defaultValue = "") String message`.
+It receives the value of s as a query parameter for the url.
+The relevant fields of the class are `private StringBuilder runningString` which stores the string and appends a new string.
+When there is a specific request the addMessage method calls the argument and the if condition runs to see if the argument is not empty.
+If it isn't it appends a new line and send it to the runningString field, which returns the value of the runningString
+ 
+
+
 
 # Part 2 
 The issue with ReverseInPlace's bug is that it swaps an index that requires modification with an index that has already been altered, resulting in an incorrect output like `[1,2,3]` becoming `[3,1,3]`.   
