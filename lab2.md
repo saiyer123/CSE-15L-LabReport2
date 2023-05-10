@@ -1,6 +1,6 @@
 # Part 1
 ![Image](cse15-lab2-ss-code.png)
-s
+ss
 In my code I used the addMessage method that takes in the arguments.
 `@RequestParam(value = "s", defaultValue = "") String message`.
 It receives the value of s as a query parameter for the url.
