@@ -1,16 +1,5 @@
 # Part 1
-`public class StringServer {`
-
-    `private StringBuilder runningString = new StringBuilder();
-
-    @GetMapping("/add-message")
-    public String addMessage(@RequestParam(value = "s", defaultValue = "") String message) {
-        if (!message.isEmpty()) {
-            runningString.append("\n").append(message);
-        }
-        return runningString.toString().trim();
-    }`
-`}`
+![Image](cse15-lab2-ss-code.png)
 
 In my code I used the addMessage method that takes in the arguments.
 `@RequestParam(value = "s", defaultValue = "") String message`.
